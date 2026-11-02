@@ -15,6 +15,7 @@ manifest:
         name-allowlist:
           - cmsis_6
           - hal_nordic
+        path-prefix: deps
 
   self:
-    path: app
+    path: manifest-repo
